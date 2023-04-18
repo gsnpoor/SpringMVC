@@ -2,7 +2,7 @@ package com.itheima.domain;
 
 public class User {
     private String name;
-    private int age;
+    private Integer age;
 
     private Address address;
 

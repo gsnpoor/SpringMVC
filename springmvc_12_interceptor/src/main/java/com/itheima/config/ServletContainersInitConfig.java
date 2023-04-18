@@ -3,7 +3,7 @@ package com.itheima.config;
 import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
-import javax.servlet.Filter;
+//import javax.servlet.Filter;
 
 public class ServletContainersInitConfig extends AbstractAnnotationConfigDispatcherServletInitializer {
     protected Class<?>[] getRootConfigClasses() {
@@ -19,10 +19,10 @@ public class ServletContainersInitConfig extends AbstractAnnotationConfigDispatc
     }
 
     //乱码处理
-    @Override
+    /*@Override
     protected Filter[] getServletFilters() {
         CharacterEncodingFilter filter = new CharacterEncodingFilter();
         filter.setEncoding("UTF-8");
         return new Filter[]{filter};
-    }
+    }*/
 }

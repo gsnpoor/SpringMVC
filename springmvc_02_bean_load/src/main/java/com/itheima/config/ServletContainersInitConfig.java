@@ -19,9 +19,8 @@ public class ServletContainersInitConfig extends AbstractAnnotationConfigDispatc
         return new String[]{"/"};
     }
 }
-/*
 
-public class ServletContainersInitConfig extends AbstractDispatcherServletInitializer {
+/*public class ServletContainersInitConfig extends AbstractDispatcherServletInitializer {
     protected WebApplicationContext createServletApplicationContext() {
         AnnotationConfigWebApplicationContext ctx = new AnnotationConfigWebApplicationContext();
         ctx.register(SpringMvcConfig.class);
@@ -36,5 +35,4 @@ public class ServletContainersInitConfig extends AbstractDispatcherServletInitia
         return new String[]{"/"};
     }
 
-}
-*/
+}*/

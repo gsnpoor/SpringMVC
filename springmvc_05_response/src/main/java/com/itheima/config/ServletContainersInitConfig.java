@@ -19,10 +19,10 @@ public class ServletContainersInitConfig extends AbstractAnnotationConfigDispatc
     }
 
     //乱码处理
-    @Override
+    /*@Override
     protected Filter[] getServletFilters() {
         CharacterEncodingFilter filter = new CharacterEncodingFilter();
         filter.setEncoding("UTF-8");
         return new Filter[]{filter};
-    }
+    }*/
 }
